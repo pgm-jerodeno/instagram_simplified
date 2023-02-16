@@ -1,0 +1,28 @@
+{
+  "name": "crud-server",
+  "version": "1.0.0",
+  "description": "CRUD Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "watch:dev": "nodemon index.js",
+    "seed": "node seeder/index.js"
+  },
+  "keywords": [
+    "crud",
+    "nodejs",
+    "express"
+  ],
+  "author": "Philippe De Pauw - Waterschoot",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
