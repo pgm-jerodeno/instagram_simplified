@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Simplified | Programming 2 | Associate Degree in Computer Programming</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo"><img src="img/instagram_logo.png" alt="logo"></div>
+                <nav>
+                    <div class="home"><a href="index.html"><img src="img/house-solid.svg" alt="home"></a></div>
+                    <div class="post"><img src="img/square-plus-regular.svg" alt="new post"></div>
+                    <div class="profile"></div>
+                </nav>
+            </div>
+            <div class="newPost hidden">
+                <form action="#" method="post" id="formPost">
+                    <input id="post-picture" type="text" name="newPost__picture" placeholder="Enter the name and extension of your local image"/>
+                    <input id="post-description" type="text" name="newPost__description" placeholder="Add a description for your image..."/>
+                    <button type="submit">Post</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="profile">
+            <div class="container">
+                <div class="row">
+                    <div class="user__info"></div> 
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="user__posts"></div> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/services.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
